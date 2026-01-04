@@ -208,12 +208,11 @@ section{
     height: 50%; 
 }
 .col-1 img{ 
-    width:100%; 
+    max-width:100%; 
     border-radius:8px; 
     box-shadow: var(--shadow-sm); 
     object-fit:cover;
     min-height: 250px;
-    object-fit: cover;
 }
 .col-2{ 
     flex:1 1 520px; 
