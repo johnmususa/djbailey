@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-------------------------------->
     <!-------- Google icons link ----->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
     <!-------------------------------->
     <link rel="stylesheet" href="style.css">
     <title>DJ Bailey-D | Website</title>
@@ -45,7 +45,7 @@
         <section class="about" id="about">
             <div class="container">
                 <div class="col-1">
-                    <img src="images/about-img2.jpg" alt="DJ-Bailey" loading="lazy" title="DJ Bailey">
+                    <img src="images/about-img2.jpg" alt="DJ-Bailey" loading="eager" decoding="async" fetchpriority="high"  title="DJ Bailey">
                 </div>
                 <div class="col-2">
                     <h2>DJ Bailey-D: Mobile-Radio-Club DJ</h2>
@@ -167,7 +167,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com" title="instagram" target="_blank">
+                                <a href="https://www.instagram.com/bailey.bailey.512943?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="instagram" target="_blank">
                                     <ion-icon name="logo-instagram"></ion-icon> Bailey Bailey
                                 </a>
                             </li>
@@ -253,7 +253,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com" title="Instagram" target="_blank">
+                            <a href="https://www.instagram.com/bailey.bailey.512943?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" title="Instagram" target="_blank">
                                 <ion-icon name="logo-instagram"></ion-icon> Instagram
                             </a>
                         </li>
@@ -271,8 +271,7 @@
             </div>
         </section>
     </main>
-
-    <script src="script.js"></script>
-
+    <script src="script.js" defer></script>
+	
 </body>
 </html>
